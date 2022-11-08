@@ -258,6 +258,7 @@ public class Game : MonoBehaviour
             inTableTilesCanvas.transform.GetChild(0).parent = null;
         }
         */
+
         for (int i = 0; i < notChosenTiles.Count; i++)
         {
             GameObject newTile = Instantiate(notChosenTiles[i]);
